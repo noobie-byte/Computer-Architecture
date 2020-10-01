@@ -1,2 +1,2 @@
 # Computer-Architecture
-Supplement verilog files 
+Supplemental verilog files and references for hassle free HDL coding
