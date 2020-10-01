@@ -1,0 +1,45 @@
+$date
+	Thu Oct 01 00:49:33 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module ALU_2_tb $end
+$var wire 4 ! ALU_ctrl [3:0] $end
+$var reg 2 " ALUOp [1:0] $end
+$var reg 6 # funct [5:0] $end
+$scope module DUT $end
+$var wire 2 $ ALUOp [1:0] $end
+$var wire 6 % funct [5:0] $end
+$var reg 4 & ALU_ctrl [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 &
+b100000 %
+b10 $
+b100000 #
+b10 "
+b10 !
+$end
+#10
+b110 !
+b110 &
+b100010 #
+b100010 %
+#20
+b0 !
+b0 &
+b100100 #
+b100100 %
+#30
+bz !
+bz &
+b100111 #
+b100111 %
+#90
