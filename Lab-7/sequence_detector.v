@@ -1,10 +1,10 @@
 //verilog code of Moore machine
-module sd1010_moore_over(input bit clk,
-                   input logic reset,
-                   input logic din,
-                   output logic dout);
+module sd1010_moore_over(input clk,
+                   input reset,
+                   input din,
+                   output dout);
 
-  typedef enum logic [2:0] {S0, S1, S2, S3, S4} state_t;
+  typedef enum [2:0] {S0, S1, S2, S3, S4} state_t;
   state_t state;
 
   always @(posedge clk or posedge reset) begin
